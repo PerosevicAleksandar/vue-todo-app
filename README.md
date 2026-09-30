@@ -1,38 +1,41 @@
-# todo-app
+# ToDo App
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple ToDo application built with Vue that allows users to add and remove tasks, categorize them by priority, and mark them as completed.
 
-## Recommended IDE Setup
+## Example Screenshot
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![Vue ToDo App](screenshots/todo.png)
 
-## Recommended Browser Setup
+## Features
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Add and remove tasks
+- Categorize tasks by priority
+- Mark tasks as completed
+- View task status and history
 
-## Customize configuration
+## Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue
+- JavaScript
+- HTML
+- CSS
 
-## Project Setup
+## Installation
 
-```sh
+1. Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/PerosevicAleksandar/vue-todo-app.git
+cd vue-todo-app
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+2. Then start the development server:
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Live Demo
 
-```sh
-npm run build
-```
+[View Live Demo](https://todo-task-mng.netlify.app/)
