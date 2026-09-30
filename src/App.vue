@@ -22,11 +22,7 @@ export default {
   },
   data() {
     return {
-      tasks: [
-        { id: 1, title: "Learn Vue basics", completed: true, priority: "High" },
-        { id: 2, title: "Practice Vue directives", completed: false, priority: "Medium" },
-        { id: 3, title: "Create To Do App", completed: false, priority: "Low" }
-      ]
+      tasks: []
     };
   },
   methods: {
